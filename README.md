@@ -24,7 +24,7 @@ sudo make fc660c:default (or other keymap name)
 ## Install
 
 ```sh
-sudo make fc660c:toma1k:dfu
+sudo make fc660c:tomaik:dfu
 ```
 
 click reset button on keyboard and wait
