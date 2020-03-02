@@ -12,7 +12,7 @@ cd qmk_firmware
 - Fedora:
 
 ```sh
-sudo dnf install gcc unzip wget zip dfu-util dfu-programmer avr-gcc avr-libc binutils-avr32-linux-gnu arm-none-eabi-gcc-cs arm-none-eabi-binutils-cs arm-none-eabi-newlib
+sudo dnf install dfu-util dfu-programmer avr-gcc avr-libc binutils-avr32-linux-gnu arm-none-eabi-gcc-cs arm-none-eabi-binutils-cs arm-none-eabi-newlib
 ```
 
 ## Verify build (from root qmk dir)
@@ -33,4 +33,4 @@ click reset button on keyboard and wait
 
 Create layout using [qmk web configurator](https://config.qmk.fm).
 
-Example: [toma1k.json](toma1k.json)
+Example: [tomaik.json](tomaik.json)
